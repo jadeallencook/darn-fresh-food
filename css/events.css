@@ -1,0 +1,9 @@
+.event-container {
+    width: 100%;
+    border-style: none;
+}
+
+.event-information {
+    width: 100%; 
+    padding: 15px;
+}

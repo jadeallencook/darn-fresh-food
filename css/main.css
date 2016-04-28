@@ -1,0 +1,243 @@
+/*
+
+    COLORS - 
+    RED: #BC1414
+    BLUE: #001645
+    LIGHT BLUE: #808AA2;
+
+*/
+
+.recipe-photo {
+    width: 25%;
+    float: right;
+    border-radius: 15px;
+    margin: 25px;
+    margin-right: 50px;
+}
+
+a {
+    color: #BC1414;
+    text-decoration: none;
+}
+
+a:link {
+    color: #BC1414;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BC1414;
+    text-decoration: none;
+}
+
+a:active {
+    color: #BC1414;
+    text-decoration: none;
+}
+
+a:visted {
+    color: #BC1414;
+    text-decoration: none;
+}
+
+
+footer p, h3 {
+    line-height: 1px;
+    text-align: center;
+}
+
+footer p {
+    font-size: .8em
+}
+
+input[type=text] {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #001645;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px #808AA2;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #808AA2;
+}
+
+html {
+    background-image: url("../img/background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #001645;
+}
+
+
+/* Gradient color1 - color2 - color1 */
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #001645;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 50%;
+}
+
+#mailing-list {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1em;
+    width: 45%;
+    display: block;
+    border: solid;
+    border-color: #808AA2;
+    background: #FFF;
+    color: #001645;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    
+}
+
+#mailing-list-button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    width: 45%;
+    display: block;
+    border: none;
+    background: #BC1414;
+    color: #FFF;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    -webkit-animation-name: light-to-dark;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+#home-button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    width: 100%;
+    display: block;
+    border: none;
+    background: #BC1414;
+    color: #FFF;
+    padding: 10px 15px 10px 15px;
+    margin: 55px 15px 35px 15px;
+    border-radius: 3px;
+    -webkit-animation-name: light-to-dark;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+#home-button:hover {
+    -webkit-animation-name: dark-to-light;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+#mailing-list-button:hover {
+    -webkit-animation-name: dark-to-light;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes dark-to-light {
+    from {background-color: #BC1414;}
+    to {background-color: red;}
+}
+
+@-webkit-keyframes light-to-dark {
+    from {background-color: red;}
+    to {background-color: #BC1414;}
+}
+
+
+#container {
+    margin: 25px auto;
+    margin-bottom: 50px;
+    top: 0px;
+    width: 70%;
+    padding: 25px;
+    background: #FFF;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 500px;
+}
+
+#logo {
+    width: 75%;
+    margin: 50px;
+}
+
+#welcome-header {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    color: #BC1414;
+    margin-bottom: -25px;
+    line-height: 2px;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    bottom: 0px;
+}
+
+#contact-info p {
+    line-height: 5px;
+    font-size: 12px;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -25px;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 0px;
+    display: inline;
+}
+
+nav ul li button {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    color: #001645;
+    text-decoration: none;
+    background: #FFF;
+    border-style: none;
+}
+
+footer nav ul li button {
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    color: #001645;
+    text-decoration: none;
+    background: #FFF;
+    border-style: none;
+}
+
+nav ul li button:hover {
+    color: #808AA2;
+    text-decoration: none;
+    background: #FFF;
+    border-style: none;
+}
